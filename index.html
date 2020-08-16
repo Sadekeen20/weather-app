@@ -56,10 +56,10 @@
                     const main=data.main;
                     document.getElementById('cityName').innerText=cityName;
                     document.getElementById('temp').append(': '+main.temp+ '°C');
-                    document.getElementById('humidity').append(': '+main.humidity);
-                    document.getElementById('feels_like').append(': '+main.feels_like);
-                    document.getElementById('temp_max').append(': '+main.temp_max);
-                    document.getElementById('temp_min').append(': '+main.temp_min);
+                    document.getElementById('humidity').append(': '+main.humidity+ '%');
+                    document.getElementById('feels_like').append(': '+main.feels_like+ '°C');
+                    document.getElementById('temp_max').append(': '+main.temp_max+ '°C');
+                    document.getElementById('temp_min').append(': '+main.temp_min+ '°C');
                     document.getElementById('pressure').append(': '+main.pressure);
                     console.log(data);
 
